@@ -41,7 +41,7 @@ namespace Formulario
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Participante no encontrado");
             }
 
         } 
